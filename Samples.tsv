@@ -1,0 +1,10 @@
+sample_id	fastq1	fastq2	assay	mark	condition	replicate	pair_id
+H3K27ac_Treated_R1	data/Treat_R1.fastq.gz	.	ChIP	H3K27ac	Treated	1	P1
+Input_Treated_R1	data/InputTreat_R1.fastq.gz	.	Input	Input	Treated	1	P1
+H3K27ac_Treated_R2	data/Treat_R2.fastq.gz	.	ChIP	H3K27ac	Treated	2	P2
+Input_Treated_R2	data/InputTreat_R2.fastq.gz	.	Input	Input	Treated	2	P2
+H3K27ac_Healthy_R1	data/Healthy_R1.fastq.gz	.	ChIP	H3K27ac	Healthy	1	P3
+Input_Healthy_R1	data/InputHealthy_R1.fastq.gz	.	Input	Input	Healthy	1	P3
+H3K27ac_Healthy_R2	data/Healthy_R2.fastq.gz	.	ChIP	H3K27ac	Healthy	2	P4
+Input_Healthy_R2	data/InputHealthy_R2.fastq.gz	.	Input	Input	Healthy	2	P4
+

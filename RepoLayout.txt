@@ -1,0 +1,14 @@
+chipseq-pipeline/
+├── samples.tsv
+├── scripts/
+│   ├── 00_config.sh
+│   ├── 01_qc_trim.sh
+│   ├── 02_align_filter.sh
+│   ├── 03_tracks_qc.sh
+│   ├── 04_peak_calling_macs2.sh
+│   ├── 05_motif_analysis_homer.sh
+│   └── run_all.sh
+└── r/
+    ├── 01_peak_annotation_plots.R
+    ├── 02_go_pathway_enrichment.R
+    └── 03_signal_heatmap_profiles.R   # placeholder hook if you use deepTools matrices
