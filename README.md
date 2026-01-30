@@ -51,7 +51,9 @@ This workflow supports transcription factor and histone mark experiments with bi
 	•	IDR (optional, for reproducibility)
 
 ### R Packages
+```R
 install.packages(c("tidyverse", "ggplot2", "ggrepel"))
+
 BiocManager::install(c(
   "ChIPseeker",
   "DiffBind",
@@ -59,7 +61,7 @@ BiocManager::install(c(
   "org.Hs.eg.db",
   "TxDb.Hsapiens.UCSC.hg19.knownGene"
 ))
- 
+ ```
 ### 📋 Input Files
 1. Sample Sheet (samples.tsv)
 Each row represents one sequencing library.
